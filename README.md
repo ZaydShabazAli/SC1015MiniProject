@@ -58,11 +58,15 @@ For the strongest predictor, Police Complaints, the best (most accurate) machine
 To best predict the number of rape cases reported in India by state from 2001-2010, Support Vector Machines model with the predictor variable: Police Complaints can be used. As a second best alternative, the Linear Regression model with the predictor variable: Police Corruption (see Police Corruption Conclusion) can be used. 
 
 ## What did we learn from this project?
-Using multiple datasets, extracting variables with different indexes, and merging them properly for accurate analysis
-Applying data cleaning for large datasets with > 1700 rows for some datasets
-Removal of outliers from the dataframe using methods such as Z-Score, and Inter-Quartile Range (IQR)
-New Machine Learning Methods:
+1)Using multiple datasets, extracting variables with different indexes, and merging them properly for accurate analysis
+
+2)Applying data cleaning for large datasets with > 1700 rows for some datasets
+
+3)Removal of outliers from the dataframe using methods such as Z-Score, and Inter-Quartile Range (IQR)
+
+4)New Machine Learning Methods:
 Neural Networks, K-Nearest Neighbors, Polynomial Regression, Ridge Regression, Support Vector Machines
-Collaborating with GitHub Repositories
+
+5)Collaborating with GitHub Repositories
 
 ## References
