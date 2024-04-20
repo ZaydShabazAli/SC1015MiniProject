@@ -2,5 +2,7 @@ About:
 
 Contributors:
 Barnabas - Police Complaints
-Zayd 
-Ke Jun
+
+Zayd - Corruption Level
+
+Ke Jun - Police Strength
