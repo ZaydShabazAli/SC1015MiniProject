@@ -1,6 +1,6 @@
 About:
 
 Contributors:
-Barnabas
-Zayd
+Barnabas - Police Complaints
+Zayd 
 Ke Jun
