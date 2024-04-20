@@ -52,7 +52,7 @@ Police Strength per state and Rape Cases reported has a rather weak correlation 
 After using 3 different machine learning methods, I have found that the polynomial regression method (8th degree) is the best predictor of our response variable, with an explained variance of 0.49, compared to other methods such as linear regression (explained variance of 0.06) and K-Nearest Neighbours (explained variance of 0.38). Values of explained variance are calculated after removal of outliers from the dataset, for all 3 machine learning methods.
 
 ## Conclusion
-Out of the three predictors (Police Complaints, Police Corruption, Police Strength), the strongest predictor for Rape Reported is Police Complaints, which has the highest absolution correlation value of 0.71 as compared to Police Corruption: 0.16, and Police Strength: 0.42. Police Corruption is the weakest predictor for Rape Reported.
+Out of the three predictors (Police Complaints, Police Corruption, Police Strength), the strongest predictor for Rape Reported is Police Complaints, which has the highest absolute correlation value of 0.71 as compared to Police Corruption: 0.16, and Police Strength: 0.42. Police Corruption is the weakest predictor for Rape Reported.
 
 For the strongest predictor, Police Complaints, the best (most accurate) machine learning model is Support Vector Machines (see Police Complaints Conclusion). 
 
