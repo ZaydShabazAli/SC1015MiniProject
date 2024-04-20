@@ -7,9 +7,9 @@ The mini project implements the data pipeline (except Ethical Consideration): Sa
 
 For a detailed walkthrough, please view the source code in order from:
 1. [ReadMe File]
-2. [Analysis of Factor 1] (Police Complaints)
-3. [Analysis of Factor 2] (Police Corruption)
-4. [Analysis of Factor 3]() (Police Strength)
+2. [Analysis of Factor 1](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Complaints_Barnabas.ipynb) (Police Complaints)
+3. [Analysis of Factor 2](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Corruption_Zayd.ipynb) (Police Corruption)
+4. [Analysis of Factor 3](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Strength_KeJun.ipynb) (Police Strength)
 
 
 ## Contributors:
