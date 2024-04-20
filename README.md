@@ -41,6 +41,7 @@ K-Nearest Neighbours
 
 ## Police Complaints Conclusion
 As Rape Reported & Complaints_Received/Alleged has a strong correlation of 0.71, indicating a strong linear relationship, Complaints_Received/Alleged is an important predictor of Rape Reported.
+
 Out of the three machine learning models implemented (KNN: Mean Squared Error - 392774666.08746356; Ridge Regression - Mean Squared Error: 125688531.65739381; SVM: Mean Squared Error - 36334198.68137042), SVM has the smallest Mean Squared Error, and is thus the best machine learning model in terms of predicting Rape Reported using Complaints_Received/Alleged.
 
 ## Police Corruption Conclusion
