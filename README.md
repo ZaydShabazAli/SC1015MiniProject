@@ -1,7 +1,7 @@
 # Rape-Reported in India Repository
 
 ## About:
-This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses the prediction of number of rape reported all 35 states of India from 2001-2010 using a trifactor approach: Police Complaints, Persons, Arrested for Rape, Police Corruption, and Police Strength. 
+This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses the prediction of number of rape reported all 35 states of India from 2001-2010 using a 6-factor approach: Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction, Police Strength, and Escapes from Police Custody. 
 
 The mini project implements the data pipeline (except Ethical Consideration): Sample Collection, Data Preparation, Exploratory Analysis, Analytic Visualisation, Algorithmic Optimisation, Information Presentation, and Ethical Consideration.
 
@@ -86,11 +86,11 @@ Using 3 different machine learning methods (K-Nearest Neighbours (KNN), Polynomi
 
 ## Conclusion
 
-Out of the six predictors, the strength of the predictors (by absolute correlation value) in descending order is as follows: Persons Arrested for Rape (0.99), Escapes from Police Custody (0.84), Kidnapping & Abduction Cases (0.72), Police Complaints (0.71), Police Corruption (0.40), and Police Strength (0.16). The strongest predictor for the number of rape cases reported is the number of persons arrested for rape (Persons Arrested for Rape). Other significantly strong predictors are Escapes from Police, Kidnapping & Abduction Cases, and Police Complaints. Conversely, the weakest predictor for the number of rape cases reported is the density of police officers by state (Police Strength).  
+Out of the six predictors, the strength of the predictors (by absolute correlation value) in descending order is as follows: Persons Arrested for Rape (0.99), Escapes from Police Custody (0.84), Kidnapping & Abduction (0.72), Police Complaints (0.71), Police Corruption (0.40), and Police Strength (0.16). The strongest predictor for the number of rape cases reported is the number of persons arrested for rape (Persons Arrested for Rape). Other significantly strong predictors are Escapes from Police, Kidnapping & Abduction, and Police Complaints. Conversely, the weakest predictor for the number of rape cases reported is the density of police officers by state (Police Strength).  
 
  
 
-For each of the strongest predictors, we want to determine the best machine learning (ML) model for predicting the number of rape cases reported. For Persons Arrested for Rape and Police Complaints, the best ML model is Suport Vector Machines (see Persons Arrested for Rape Conclusion & Police Complaints Conclusion respectively). For Escapes from Police Custody, the best ML model is Polynomial Regression (see Escapes from Police Custody conclusion). For Kidnapping & Abduction Cases, the best ML model is Linear Regression (see Kidnapping & Abduction cases). 
+For each of the strongest predictors, we want to determine the best machine learning (ML) model for predicting the number of rape cases reported. For Persons Arrested for Rape and Police Complaints, the best ML model is Suport Vector Machines (see Persons Arrested for Rape Conclusion & Police Complaints Conclusion respectively). For Escapes from Police Custody, the best ML model is Polynomial Regression (see Escapes from Police Custody conclusion). For Kidnapping & Abduction, the best ML model is Linear Regression (see Kidnapping & Abduction cases). 
 
  
 
