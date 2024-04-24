@@ -21,7 +21,7 @@ For a detailed walkthrough, please view the source code in order from:
 @yeokjunn - Police Strength
 
 ## Problem Definition
-How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Police Corruption, and Police Corruption)?
+How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, and Police Corruption)?
 Which machine learning model is the best to predict it?
 
 ## Machine Learning Models Used
