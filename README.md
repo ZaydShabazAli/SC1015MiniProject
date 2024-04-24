@@ -52,6 +52,12 @@ As Rape Reported & Persons_Arrested has a very strong positive correlation of 0.
 
 ## Police Corruption Conclusion
 
+The predictor variable, which is the total number of corruption cases reported against police, and the response variable, which is the total number of sexual assault cases reported appear to have a weak correlation of 0.42, indicating a weak to moderate linear relationship. As such, the total number of corruption cases may not be a important predictor of the number of rape cases reported.
+    
+Three machine learning models were utilised for algorithmic optimisation. A linear regression model, a KNN model and a neural network. Each of the three machine learning models struggle with accuratley predicting the number of sexual assault cases in the test set, which is most likely due to the low correlation between the variables. Of the models, the linear regression model appears to be the most accurate, based on the distribution of the points across the graph, as well as having the lowest mean squared error of 2604659.9424534114, compared to the mean squared error of the KNN model which is 4283014.266875, or of the neural network, which is 3543156.0000.
+    
+Overall, the linear regression model appears to be the most accurate, however, due to the low correlation of this variable, would not reccomend using it to predict the total number of sexual assault cases
+
 ## Police Strength Conclusion
 Police Strength per state and Rape Cases reported has a rather weak correlation of -0.16, which indicates that as Police Strength per state increases, rape cases reported decreases.
 
