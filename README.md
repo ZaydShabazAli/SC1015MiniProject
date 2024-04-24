@@ -11,8 +11,8 @@ For a detailed walkthrough, please view the source code in order from:
 3. [Analysis of Factor 2](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Persons_Arrested_For_Rape_Barnabas.ipynb) (Persons Arrested for Rape)
 4. [Analysis of Factor 3](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Corruption_Zayd.ipynb) (Police Corruption)
 5. [Analysis of Factor 4] (Zayd's Variable) 
-6. [Analysis of Factor 5](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Strength_KeJun.ipynb)(Police Strength)
-7. [Analysis of Factor 6](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Escapes_from_Police_Custody_KeJun.ipynb)(Escapes from Police Custody)
+6. [Analysis of Factor 5](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Strength_KeJun.ipynb) (Police Strength)
+7. [Analysis of Factor 6](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Escapes_from_Police_Custody_KeJun.ipynb) (Escapes from Police Custody)
 
 
 ## Contributors:
