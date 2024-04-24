@@ -20,7 +20,7 @@ For a detailed walkthrough, please view the source code in order from:
 - Police Complaints, Persons Arrested for Rape (Factors 1 & 2)
 
 @ZaydShabazAli, Zayd
--  Police Corruption, (Kidnapping & Abduction Cases) (Factors 3 & 4)
+-  Police Corruption, Kidnapping & Abduction Cases (Factors 3 & 4)
 
 @yeokjunn, Ke Jun
 - Police Strength, Escapes from Police Custody (Factors 5 & 6)
@@ -57,7 +57,7 @@ As Rape Reported & Persons_Arrested has a very strong positive correlation of 0.
 
 **Out of the three machine learning models implemented (KNN: Mean Squared Error - 179844160.2857143; Ridge Regression - Mean Squared Error: 7325195.47854473; SVM: Mean Squared Error - 6753632.837741917), SVM has the smallest Mean Squared Error, and is thus the best machine learning model in terms of predicting Rape Reported using Persons_Arrested.
 
-## Kidnapping & Abductio Conclusion
+## Kidnapping & Abduction Conclusion
 
 The predictor variable, which is the total number of corruption cases reported against police, and the response variable, which is the total number of sexual assault cases reported appear to have a weak correlation of 0.40, indicating a weak to moderate linear relationship. As such, the total number of corruption cases may not be a important predictor of the number of rape cases reported.
     
