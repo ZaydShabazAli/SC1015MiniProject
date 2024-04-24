@@ -10,7 +10,7 @@ For a detailed walkthrough, please view the source code in order from:
 2. [Analysis of Factor 1](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Complaints_Barnabas.ipynb) (Police Complaints)
 3. [Analysis of Factor 2](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Persons_Arrested_For_Rape_Barnabas.ipynb) (Persons Arrested for Rape)
 4. [Analysis of Factor 3](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Corruption_Zayd.ipynb) (Police Corruption)
-5. [Analysis of Factor 4] (Zayd's Variable) 
+5. [Analysis of Factor 4](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Kidnapping_Victims_Zayd.ipynb)(Kidnapping & Abduction Cases) 
 6. [Analysis of Factor 5](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Strength_KeJun.ipynb) (Police Strength)
 7. [Analysis of Factor 6](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Escapes_from_Police_Custody_KeJun.ipynb) (Escapes from Police Custody)
 
@@ -20,7 +20,7 @@ For a detailed walkthrough, please view the source code in order from:
 - Police Complaints, Persons Arrested for Rape (Factors 1 & 2)
 
 @ZaydShabazAli, Zayd
--  Police Corruption, (Second Variable) (Factors 3 & 4)
+-  Police Corruption, (Kidnapping & Abduction Cases) (Factors 3 & 4)
 
 @yeokjunn, Ke Jun
 - Police Strength, Escapes from Police Custody (Factors 5 & 6)
@@ -35,7 +35,7 @@ Police Complaints, Persons Arrested for Rape:
 - Ridge Regression
 - Support Vector Machines
 
-Police Corruption:
+Police Corruption, Kidnapping & Abduction Cases:
 - Linear Regression
 - K-Nearest Neighbours
 - Neural Networks
@@ -57,13 +57,21 @@ As Rape Reported & Persons_Arrested has a very strong positive correlation of 0.
 
 **Out of the three machine learning models implemented (KNN: Mean Squared Error - 179844160.2857143; Ridge Regression - Mean Squared Error: 7325195.47854473; SVM: Mean Squared Error - 6753632.837741917), SVM has the smallest Mean Squared Error, and is thus the best machine learning model in terms of predicting Rape Reported using Persons_Arrested.
 
-## Police Corruption Conclusion
+## Kidnapping & Abductio Conclusion
 
 The predictor variable, which is the total number of corruption cases reported against police, and the response variable, which is the total number of sexual assault cases reported appear to have a weak correlation of 0.40, indicating a weak to moderate linear relationship. As such, the total number of corruption cases may not be a important predictor of the number of rape cases reported.
     
 Three machine learning models were utilised for algorithmic optimisation. A linear regression model, a KNN model and a neural network. Each of the three machine learning models struggle with accuratley predicting the number of sexual assault cases in the test set, which is most likely due to the low correlation between the variables. Of the models, the linear regression model appears to be the most accurate, based on the distribution of the points across the graph, as well as having the lowest mean squared error of 2604659.9424534114, compared to the mean squared error of the KNN model which is 4283014.266875, or of the neural network, which is 3543156.0000.
     
 Overall, the linear regression model appears to be the most accurate, however, due to the low correlation of this variable, would not reccomend using it to predict the total number of sexual assault cases
+
+## Police Corruption Conclusion
+
+The predictor variable, which is the total number of kidnapping and abduction cases reported against police, and the response variable, which is the total number of sexual assault cases reported appear to have a strong correlation of 0.72, indicating a strong linear relationship. As such, the total number of kidnapping and abduction cases may be a important predictor of the number of rape cases reported.
+
+Three machine learning models were utilised for algorithmic optimisation. A linear regression model, a KNN model and a neural network. Each of the three machine learning models had a high mean squared error, and as a result, had difficulty accuratley predicting the total number of sexual assault cases in response to the total number of kidnapping and abduction cases. THe linear regression model had the best prediction, and had the lowest mean squared error, compared to the KNN model and the neural network.
+
+Overall, none of the three models appears to be accurate in predicting the total number of sexual assault cases, despite the high correlation. This could be due to a number of reasons, such as a large number of anomalies which need to be filtered out further. Another possibility is that the relationship between the data is not linear, it could be quadratic or another form of clustering
 
 ## Police Strength Conclusion
 
