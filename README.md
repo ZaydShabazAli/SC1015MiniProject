@@ -1,7 +1,7 @@
 # Rape-Reported in India Repository
 
 ## About:
-This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses the prediction of number of rape reported all 35 states of India from 2001-2010 using a 6-factor approach: Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction, Police Strength, and Escapes from Police Custody. 
+This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses the prediction of number of rape reported all 35 states of India from 2001-2010 using a 6-factor approach: Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction Cases, Police Strength, and Escapes from Police Custody. 
 
 The mini project implements the data pipeline (except Ethical Consideration): Sample Collection, Data Preparation, Exploratory Analysis, Analytic Visualisation, Algorithmic Optimisation, Information Presentation, and Ethical Consideration.
 
@@ -26,7 +26,7 @@ For a detailed walkthrough, please view the source code in order from:
 - Police Strength, Escapes from Police Custody (Factors 5 & 6)
 
 ## Problem Definition
-How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction, Police Strength, and Escapes from Police Custody)?
+How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction Cases, Police Strength, and Escapes from Police Custody)?
 Which machine learning model is the best to predict it?
 
 ## Machine Learning Models Used
@@ -65,7 +65,7 @@ Three machine learning models were utilised for algorithmic optimisation. A line
     
 Overall, the linear regression model appears to be the most accurate, however, due to the low correlation of this variable, would not reccomend using it to predict the total number of sexual assault cases.
 
-## Kidnapping & Abduction Conclusion
+## Kidnapping & Abduction Cases Conclusion
 The predictor variable, which is the total number of kidnapping and abduction cases reported against police, and the response variable, which is the total number of sexual assault cases reported appear to have a strong correlation of 0.72, indicating a strong linear relationship. As such, the total number of kidnapping and abduction cases may be a important predictor of the number of rape cases reported.
 
 Three machine learning models were utilised for algorithmic optimisation. A linear regression model, a KNN model and a neural network. Each of the three machine learning models had a high mean squared error, and as a result, had difficulty accuratley predicting the total number of sexual assault cases in response to the total number of kidnapping and abduction cases. THe linear regression model had the best prediction, and had the lowest mean squared error, compared to the KNN model and the neural network.
@@ -86,11 +86,11 @@ Using 3 different machine learning methods (K-Nearest Neighbours (KNN), Polynomi
 
 ## Conclusion
 
-Out of the six predictors, the strength of the predictors (by absolute correlation value) in descending order is as follows: Persons Arrested for Rape (0.99), Escapes from Police Custody (0.84), Kidnapping & Abduction (0.72), Police Complaints (0.71), Police Corruption (0.40), and Police Strength (0.16). The strongest predictor for the number of rape cases reported is the number of persons arrested for rape (Persons Arrested for Rape). Other significantly strong predictors are Escapes from Police, Kidnapping & Abduction, and Police Complaints. Conversely, the weakest predictor for the number of rape cases reported is the density of police officers by state (Police Strength).  
+Out of the six predictors, the strength of the predictors (by absolute correlation value) in descending order is as follows: Persons Arrested for Rape (0.99), Escapes from Police Custody (0.84), Kidnapping & Abduction Cases (0.72), Police Complaints (0.71), Police Corruption (0.40), and Police Strength (0.16). The strongest predictor for the number of rape cases reported is the number of persons arrested for rape (Persons Arrested for Rape). Other significantly strong predictors are Escapes from Police, Kidnapping & Abduction Cases, and Police Complaints. Conversely, the weakest predictor for the number of rape cases reported is the density of police officers by state (Police Strength).  
 
  
 
-For each of the strongest predictors, we want to determine the best machine learning (ML) model for predicting the number of rape cases reported. For Persons Arrested for Rape and Police Complaints, the best ML model is Suport Vector Machines (see Persons Arrested for Rape Conclusion & Police Complaints Conclusion respectively). For Escapes from Police Custody, the best ML model is Polynomial Regression (see Escapes from Police Custody conclusion). For Kidnapping & Abduction, the best ML model is Linear Regression (see Kidnapping & Abduction cases). 
+For each of the strongest predictors, we want to determine the best machine learning (ML) model for predicting the number of rape cases reported. For Persons Arrested for Rape and Police Complaints, the best ML model is Suport Vector Machines (see Persons Arrested for Rape Conclusion & Police Complaints Conclusion respectively). For Escapes from Police Custody, the best ML model is Polynomial Regression (see Escapes from Police Custody conclusion). For Kidnapping & Abduction Cases, the best ML model is Linear Regression (see Kidnapping & Abduction Cases Conclusion). 
 
  
 
