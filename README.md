@@ -53,9 +53,9 @@ Out of the three machine learning models implemented (KNN: Mean Squared Error - 
 
 ## Persons Arrested for Rape Conclusion
 
-As Rape Reported & Persons_Arrested has a very strong positive correlation of 0.99, indicating a very strong linear relationship, Persons_Arrested is a very important predictor of Rape Reported.**
+As Rape Reported & Persons_Arrested has a very strong positive correlation of 0.99, indicating a very strong linear relationship, Persons_Arrested is a very important predictor of Rape Reported.
 
-**Out of the three machine learning models implemented (KNN: Mean Squared Error - 179844160.2857143; Ridge Regression - Mean Squared Error: 7325195.47854473; SVM: Mean Squared Error - 6753632.837741917), SVM has the smallest Mean Squared Error, and is thus the best machine learning model in terms of predicting Rape Reported using Persons_Arrested.
+Out of the three machine learning models implemented (KNN: Mean Squared Error - 179844160.2857143; Ridge Regression - Mean Squared Error: 7325195.47854473; SVM: Mean Squared Error - 6753632.837741917), SVM has the smallest Mean Squared Error, and is thus the best machine learning model in terms of predicting Rape Reported using Persons_Arrested.
 
 ## Police Corruption Conclusion
 
