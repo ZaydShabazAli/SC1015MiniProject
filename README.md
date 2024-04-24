@@ -16,31 +16,31 @@ For a detailed walkthrough, please view the source code in order from:
 
 
 ## Contributors:
-@ClassicalAI - Police Complaints, Persons Arrested for Rape
+@ClassicalAI, Barnabas - Police Complaints, Persons Arrested for Rape (Factors 1 & 2)
 
-@ZaydShabazAli -  Police Corruption
+@ZaydShabazAli, Zayd -  Police Corruption, (Second Variable) (Factors 3 & 4)
 
-@yeokjunn - Police Strength
+@yeokjunn, Ke Jun - Police Strength, Escapes from Police Custody (Factors 5 & 6)
 
 ## Problem Definition
-How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, and Police Corruption)?
+How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Escapes from Police Custody, and Police Strength)?
 Which machine learning model is the best to predict it?
 
 ## Machine Learning Models Used
-Police Complaints:
-K-Nearest Neighbours
-Ridge Regression
-Support Vector Machines
+Police Complaints, Persons Arrested for Rape:
+- K-Nearest Neighbours
+- Ridge Regression
+- Support Vector Machines
 
 Police Corruption:
-Linear Regression
-K-Nearest Neighbours
-Neural Networks
+- Linear Regression
+- K-Nearest Neighbours
+- Neural Networks
 
-Police Strength:
-Linear Regression
-Polynomial Regression
-K-Nearest Neighbours
+Police Strength, Escapes from Police Custody:
+- Linear Regression
+- Polynomial Regression
+- K-Nearest Neighbours
 
 ## Police Complaints Conclusion
 
