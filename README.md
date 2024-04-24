@@ -16,11 +16,14 @@ For a detailed walkthrough, please view the source code in order from:
 
 
 ## Contributors:
-@ClassicalAI, Barnabas - Police Complaints, Persons Arrested for Rape (Factors 1 & 2)
+@ClassicalAI, Barnabas
+- Police Complaints, Persons Arrested for Rape (Factors 1 & 2)
 
-@ZaydShabazAli, Zayd -  Police Corruption, (Second Variable) (Factors 3 & 4)
+@ZaydShabazAli, Zayd
+-  Police Corruption, (Second Variable) (Factors 3 & 4)
 
-@yeokjunn, Ke Jun - Police Strength, Escapes from Police Custody (Factors 5 & 6)
+@yeokjunn, Ke Jun
+- Police Strength, Escapes from Police Custody (Factors 5 & 6)
 
 ## Problem Definition
 How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Escapes from Police Custody, and Police Strength)?
