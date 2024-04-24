@@ -86,11 +86,15 @@ Using 3 different machine learning methods (K-Nearest Neighbours (KNN), Polynomi
 
 ## Conclusion
 
-Out of the three predictors (Police Complaints, Persons Arrested for Rape, Police Corruption, Police Strength), the strongest predictors for Rape Reported is Persons Arrested for Rape & Police Complaints, which has the highest absolute correlation value of 0.99 & 0.71 respectively as compared to Police Corruption: 0.16, and Police Strength: 0.42. Police Corruption is the weakest predictor for Rape Reported.
+Out of the six predictors, the strength of the predictors (by absolute correlation value) in descending order is as follows: Persons Arrested for Rape (0.99), Escapes from Police Custody (0.84), Kidnapping & Abduction Cases (0.72), Police Complaints (0.71), Police Corruption (0.40), and Police Strength (0.16). The strongest predictor for the number of rape cases reported is the number of persons arrested for rape (Persons Arrested for Rape). Other significantly strong predictors are Escapes from Police, Kidnapping & Abduction Cases, and Police Complaints. Conversely, the weakest predictor for the number of rape cases reported is the density of police officers by state (Police Strength).  
 
-For the strongest predictors, Persons Arrested for Rape & Police Complaints, the best (most accurate) machine learning model is Support Vector Machines (see Persons Arrested for Rape & Police Complaints Conclusion). 
+ 
 
-To best predict the number of rape cases reported in India by state from 2001-2010, Support Vector Machines model with the predictor variable: Persons Arrested for Rape OR Police Complaints can be used. As a third best alternative, the Linear Regression model with the predictor variable: Police Corruption (see Police Corruption Conclusion) can be used. 
+For each of the strongest predictors, we want to determine the best machine learning (ML) model for predicting the number of rape cases reported. For Persons Arrested for Rape and Police Complaints, the best ML model is Suport Vector Machines (see Persons Arrested for Rape Conclusion & Police Complaints Conclusion respectively). For Escapes from Police Custody, the best ML model is Polynomial Regression (see Escapes from Police Custody conclusion). For Kidnapping & Abduction Cases, the best ML model is Linear Regression (see Kidnapping & Abduction cases). 
+
+ 
+
+To best predict the number of rape cases reported in India by state from 2001-2010, Support Vector Machines model with the predictor variable: Persons Arrested for Rape can be used. As a second-best alternative, the Polynomial Regression model with the predictor variable: Escapes from Police can be used. 
 
 ## What did we learn from this project?
 1)Using multiple datasets, extracting variables with different indexes, and merging them properly for accurate analysis
