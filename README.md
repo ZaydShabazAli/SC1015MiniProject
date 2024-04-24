@@ -26,7 +26,7 @@ For a detailed walkthrough, please view the source code in order from:
 - Police Strength, Escapes from Police Custody (Factors 5 & 6)
 
 ## Problem Definition
-How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Escapes from Police Custody, and Police Strength)?
+How and what can we use to predict the number of rape cases reported in India by state from 2001-2010, based on various factors (Police Complaints, Persons Arrested for Rape, Police Corruption, Kidnapping & Abduction, Police Strength, and Escapes from Police Custody)?
 Which machine learning model is the best to predict it?
 
 ## Machine Learning Models Used
