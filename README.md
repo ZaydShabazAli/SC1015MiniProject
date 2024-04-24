@@ -5,7 +5,6 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 
 The mini project implements the data pipeline (except Ethical Consideration): Sample Collection, Data Preparation, Exploratory Analysis, Analytic Visualisation, Algorithmic Optimisation, Information Presentation, and Ethical Consideration.
 
-Data Set: https://www.kaggle.com/datasets/rajanand/crime-in-india
 
 For a detailed walkthrough, please view the source code in order from:
 1. [ReadMe File](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/README.md)
@@ -16,6 +15,7 @@ For a detailed walkthrough, please view the source code in order from:
 6. [Analysis of Factor 5](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Police_Strength_KeJun.ipynb) (Police Strength)
 7. [Analysis of Factor 6](https://github.com/ZaydShabazAli/SC1015MiniProject/blob/main/Escapes_from_Police_Custody_KeJun.ipynb) (Escapes from Police Custody)
 
+Data Set: https://www.kaggle.com/datasets/rajanand/crime-in-india
 
 ## Contributors:
 @ClassicalAI, Barnabas
